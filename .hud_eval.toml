@@ -5,15 +5,15 @@
 # source = "hud-evals/SheetBench-50"
 # agent = "claude"
 # all = false  # Run all problems instead of just 1
-# max_concurrent = 30
-# max_steps = 10
-# group_size = 1
+max_concurrent = 5
+max_steps = 50
+group_size = 10
 # task_ids = ["checkout-smoke", "0"]  # slugs or 0-based indices
 # verbose = true
 # very_verbose = true
-# auto_respond = true
+auto_respond = true
 # gateway = false  # Route LLM API calls through HUD Gateway
-# runtime = "local"  # local, hud, or tcp://host:port
+runtime = "local"
 # remote = false  # Run the whole rollout remotely on HUD
 
 [claude]

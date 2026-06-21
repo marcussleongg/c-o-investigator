@@ -155,6 +155,7 @@ async def fetch(url: str) -> str:
 # ---------------------------------------------------------------------------
 
 _SIXTYFOUR_BASE = "https://api.sixtyfour.ai"
+_sixtyfour_cache: dict[str, dict[str, Any]] = {}
 
 
 async def _sixtyfour_post(path: str, payload: dict[str, Any], timeout: float = 900.0) -> dict[str, Any]:
@@ -182,6 +183,11 @@ async def enrich_person(name: str, company: str = "", linkedin: str = "") -> dic
 
     Pass company and/or linkedin to disambiguate common names.
     """
+    cache_key = f"person:{name.lower()}:{company.lower()}"
+    if cache_key in _sixtyfour_cache:
+        logger.info("sixtyfour cache hit: %s", cache_key)
+        return _sixtyfour_cache[cache_key]
+
     lead_info: dict[str, str] = {"name": name}
     if company:
         lead_info["company"] = company
@@ -193,11 +199,19 @@ async def enrich_person(name: str, company: str = "", linkedin: str = "") -> dic
         "prior_companies": "Notable prior roles or companies",
         "sources": "List of source URLs the research is based on",
     }
-    return await _sixtyfour_post("/enrich-lead", {"lead_info": lead_info, "struct": struct, "tier": "micro"})
+    result = await _sixtyfour_post("/enrich-lead", {"lead_info": lead_info, "struct": struct, "tier": "micro"})
+    if "error" not in result:
+        _sixtyfour_cache[cache_key] = result
+    return result
 
 
 async def enrich_company(company: str, website: str = "") -> dict[str, Any]:
     """Deep-research a company: what it does, founders, board members, key executives, sources."""
+    cache_key = f"company:{company.lower()}:{website.lower()}"
+    if cache_key in _sixtyfour_cache:
+        logger.info("sixtyfour cache hit: %s", cache_key)
+        return _sixtyfour_cache[cache_key]
+
     target = f"{company} ({website})" if website else company
     struct = {
         "what_they_do": "One-sentence description of the company",
@@ -206,9 +220,12 @@ async def enrich_company(company: str, website: str = "") -> dict[str, Any]:
         "founders": "Names of the founders",
         "sources": "List of source URLs the research is based on",
     }
-    return await _sixtyfour_post(
+    result = await _sixtyfour_post(
         "/company-intelligence", {"target_company": target, "struct": struct, "tier": "micro"}
     )
+    if "error" not in result:
+        _sixtyfour_cache[cache_key] = result
+    return result
 
 
 # ---------------------------------------------------------------------------
@@ -471,13 +488,14 @@ async def conflict_of_interest(
     yield (
         f"Investigate whether {person_a} and {person_b} have a conflict of interest — "
         "a shared connection through board memberships or executive roles at public companies.\n\n"
-        "Work through the chain one hop at a time using these tools in order of preference:\n"
-        "  1. sec_search(name) — search SEC EDGAR directly for filings mentioning a person or company. "
-        "This is your primary tool; EDGAR filings are the strongest possible evidence.\n"
-        "  2. search(query) / fetch(url) — web search for board membership and executive role information, "
-        "then fetch promising pages for detail.\n"
-        "  3. enrich_person(name) / enrich_company(name) — use only when the above tools leave a name "
-        "ambiguous or return nothing useful. These are rate-limited, so use sparingly.\n\n"
+        "Work through the chain one hop at a time using any combination of these tools:\n"
+        "  - enrich_person(name) — returns board seats and prior companies directly; "
+        "use this to discover what boards a person sits on.\n"
+        "  - enrich_company(name) — returns board members and key executives; "
+        "use this to discover who sits on a company's board.\n"
+        "  - sec_search(name) — search SEC EDGAR for filings mentioning a person or company; "
+        "returns filing URLs usable as citations.\n"
+        "  - search(query) / fetch(url) — web search for corroboration and additional context.\n\n"
         "When you are confident you have found the connection, call submit(path=[...], citations=[...]) "
         "where path is the ordered list of alternating person and company names "
         "(e.g. ['Jane Smith', 'Acme Corp', 'Robert Chen']) and citations contains one source URL or "

@@ -1,0 +1,542 @@
+[
+  {
+    "person_a": "Marcela Kirberger",
+    "person_b": "Mark Blinn",
+    "label": true,
+    "path": [
+      "Marcela Kirberger",
+      "Solventum Corp",
+      "Dr. Bernard A. Harris Jr.",
+      "Solventum Corporation",
+      "Carrie Cox",
+      "TEXAS INSTRUMENTS INC",
+      "Mark Blinn"
+    ],
+    "citations": [
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/SOLV/10-K/0001964738-26-000007/full-submission.txt",
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/SOLV/DEF 14A/0001964738-26-000017/full-submission.txt",
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/RTX/DEF 14A/0001308179-26-000036/full-submission.txt",
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/TXN/DEF 14A/0000097476-26-000078/full-submission.txt",
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/TXN/DEF 14A/0000097476-26-000078/full-submission.txt",
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/TXN/DEF 14A/0000097476-26-000078/full-submission.txt"
+    ]
+  },
+  {
+    "person_a": "Randall J. Lewis",
+    "person_b": "Ann C. Hoff",
+    "label": true,
+    "path": [
+      "Randall J. Lewis",
+      "SIMON PROPERTY GROUP INC.",
+      "Nina P. Jones",
+      "EQUITY RESIDENTIAL",
+      "Ann C. Hoff"
+    ],
+    "citations": [
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/SPG/DEF 14A/0001104659-26-038320/full-submission.txt",
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/SPG/DEF 14A/0001104659-26-038320/full-submission.txt",
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/EQR/DEF 14A/0001193125-26-155007/full-submission.txt",
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/EQR/DEF 14A/0001193125-26-155007/full-submission.txt"
+    ]
+  },
+  {
+    "person_a": "Michael D. Verdeschi",
+    "person_b": "Raphael Kubler",
+    "label": true,
+    "path": [
+      "Michael D. Verdeschi",
+      "SCHWAB CHARLES CORP",
+      "Marianne C. Brown",
+      "International Business Machines Corporation",
+      "James J. Kavanaugh",
+      "T-Mobile US, Inc.",
+      "Raphael Kubler"
+    ],
+    "citations": [
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/SCHW/10-K/0000316709-26-000009/full-submission.txt",
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/SCHW/DEF 14A/0001193125-26-142826/full-submission.txt",
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/SCHW/DEF 14A/0001193125-26-142826/full-submission.txt",
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/TMUS/DEF 14A/0001193125-26-181884/full-submission.txt",
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/TMUS/DEF 14A/0001193125-26-181884/full-submission.txt",
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/TMUS/DEF 14A/0001193125-26-181884/full-submission.txt"
+    ]
+  },
+  {
+    "person_a": "Lydia H. Kennard",
+    "person_b": "Michael W. Lamach",
+    "label": true,
+    "path": [
+      "Lydia H. Kennard",
+      "FREEPORT-MCMORAN INC",
+      "Hugh Grant",
+      "PPG Industries, Inc.",
+      "Michael W. Lamach"
+    ],
+    "citations": [
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/FCX/DEF 14A/0001193125-26-173666/full-submission.txt",
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/FCX/DEF 14A/0001193125-26-173666/full-submission.txt",
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/FCX/DEF 14A/0001193125-26-173666/full-submission.txt",
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/HON/DEF 14A/0000773840-26-000029/full-submission.txt"
+    ]
+  },
+  {
+    "person_a": "Philip L. Frederickson",
+    "person_b": "Kimberly A. Fontan",
+    "label": true,
+    "path": [
+      "Philip L. Frederickson",
+      "ENTERGY CORP /DE/",
+      "Kimberly A. Fontan"
+    ],
+    "citations": [
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/ETR/DEF 14A/0000065984-26-000211/full-submission.txt",
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/ETR/10-K/0000065984-26-000174/full-submission.txt"
+    ]
+  },
+  {
+    "person_a": "April Miller Boise",
+    "person_b": "John Costigan",
+    "label": false,
+    "path": null,
+    "citations": null
+  },
+  {
+    "person_a": "Emiko Higashi",
+    "person_b": "Melanie Boulden",
+    "label": true,
+    "path": [
+      "Emiko Higashi",
+      "KLA CORP",
+      "Richard P. Wallace",
+      "Marvell Technology, Inc.",
+      "Daniel Durn",
+      "ADOBE INC.",
+      "Melanie Boulden"
+    ],
+    "citations": [
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/KLAC/DEF 14A/0001193125-25-213294/full-submission.txt",
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/KLAC/DEF 14A/0001193125-25-213294/full-submission.txt",
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/MRVL/DEF 14A/0001104659-26-060253/full-submission.txt",
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/MRVL/DEF 14A/0001104659-26-060253/full-submission.txt",
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/ADBE/10-K/0000796343-26-000003/full-submission.txt",
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/ADBE/DEF 14A/0000796343-26-000043/full-submission.txt"
+    ]
+  },
+  {
+    "person_a": "Kimberly A. Nelson",
+    "person_b": "Brian L. Roberts",
+    "label": true,
+    "path": [
+      "Kimberly A. Nelson",
+      "COLGATE PALMOLIVE CO",
+      "Noel Wallace",
+      "AMERICAN EXPRESS CO",
+      "Thomas J. Baltimore, Jr.",
+      "COMCAST CORP",
+      "Brian L. Roberts"
+    ],
+    "citations": [
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/CL/DEF 14A/0001308179-26-000136/full-submission.txt",
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/CL/DEF 14A/0001308179-26-000136/full-submission.txt",
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/AXP/DEF 14A/0001104659-26-034163/full-submission.txt",
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/AXP/DEF 14A/0001104659-26-034163/full-submission.txt",
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/CMCSA/DEF 14A/0001193125-26-177138/full-submission.txt",
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/CMCSA/DEF 14A/0001193125-26-177138/full-submission.txt"
+    ]
+  },
+  {
+    "person_a": "Grace Lieblein",
+    "person_b": "Alexander C. Karp",
+    "label": false,
+    "path": null,
+    "citations": null
+  },
+  {
+    "person_a": "Rita S. Lane",
+    "person_b": "Sallie B. Bailey",
+    "label": true,
+    "path": [
+      "Rita S. Lane",
+      "L3Harris Technologies, Inc.",
+      "Sallie B. Bailey"
+    ],
+    "citations": [
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/APH/DEF 14A/0001104659-26-040688/full-submission.txt",
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/NVR/DEF 14A/0000906163-26-000029/full-submission.txt"
+    ]
+  },
+  {
+    "person_a": "Leon J. Topalian",
+    "person_b": "Angela O. Delaney",
+    "label": false,
+    "path": null,
+    "citations": null
+  },
+  {
+    "person_a": "Denis J. O'Leary",
+    "person_b": "Dr. Kristina M. Johnson",
+    "label": true,
+    "path": [
+      "Denis J. O'Leary",
+      "CrowdStrike Holdings, Inc.",
+      "Roxanne Austin",
+      "VERIZON COMMUNICATIONS INC",
+      "Daniel H. Schulman",
+      "CISCO SYSTEMS, INC.",
+      "Dr. Kristina M. Johnson"
+    ],
+    "citations": [
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/CRWD/DEF 14A/0001104659-26-055599/full-submission.txt",
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/CRWD/DEF 14A/0001104659-26-055599/full-submission.txt",
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/VZ/DEF 14A/0001308179-26-000210/full-submission.txt",
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/VZ/DEF 14A/0001308179-26-000210/full-submission.txt",
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/CSCO/DEF 14A/0000858877-25-000150/full-submission.txt",
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/CSCO/DEF 14A/0000858877-25-000150/full-submission.txt"
+    ]
+  },
+  {
+    "person_a": "Bertram L. Scott",
+    "person_b": "Meghan C. Frank",
+    "label": true,
+    "path": [
+      "Bertram L. Scott",
+      "BECTON DICKINSON & CO",
+      "Not provided in document",
+      "lululemon athletica inc.",
+      "Meghan C. Frank"
+    ],
+    "citations": [
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/BDX/DEF 14A/0001628280-25-057846/full-submission.txt",
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/BDX/10-K/0000010795-25-000099/full-submission.txt",
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/LULU/10-K/0001397187-26-000020/full-submission.txt",
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/BBY/DEF 14A/0001140361-26-018265/full-submission.txt"
+    ]
+  },
+  {
+    "person_a": "Mark A. Pallot",
+    "person_b": "Russell Stokes",
+    "label": true,
+    "path": [
+      "Mark A. Pallot",
+      "GENERAL MILLS INC",
+      "John Morikis",
+      "UNITED PARCEL SERVICE INC",
+      "Russell Stokes"
+    ],
+    "citations": [
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/GIS/10-K/0001193125-25-147079/full-submission.txt",
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/GIS/DEF 14A/0001308179-25-000581/full-submission.txt",
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/UPS/DEF 14A/0001628280-26-019856/full-submission.txt",
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/UPS/DEF 14A/0001628280-26-019856/full-submission.txt"
+    ]
+  },
+  {
+    "person_a": "Byron Green",
+    "person_b": "Kevin Weil",
+    "label": true,
+    "path": [
+      "Byron Green",
+      "Qnity Electronics, Inc.",
+      "Dr. Kristina M. Johnson",
+      "CISCO SYSTEMS, INC.",
+      "Kevin Weil"
+    ],
+    "citations": [
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/Q/DEF 14A/0001628280-26-024259/full-submission.txt",
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/Q/DEF 14A/0001628280-26-024259/full-submission.txt",
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/CSCO/DEF 14A/0000858877-25-000150/full-submission.txt",
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/CSCO/DEF 14A/0000858877-25-000150/full-submission.txt"
+    ]
+  },
+  {
+    "person_a": "Matt Bilunas",
+    "person_b": "Emily C. Taylor",
+    "label": true,
+    "path": [
+      "Matt Bilunas",
+      "BEST BUY CO INC",
+      "Corie S. Barry",
+      "Best Buy Co., Inc.",
+      "KATHLEEN M. SCARLETT",
+      "DOLLAR GENERAL CORP",
+      "Emily C. Taylor"
+    ],
+    "citations": [
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/BBY/10-K/0000764478-26-000009/full-submission.txt",
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/BBY/DEF 14A/0001140361-26-018265/full-submission.txt",
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/DPZ/DEF 14A/0001286681-26-000012/full-submission.txt",
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/DG/DEF 14A/0001104659-26-040394/full-submission.txt",
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/DG/DEF 14A/0001104659-26-040394/full-submission.txt",
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/DG/10-K/0001104659-26-032325/full-submission.txt"
+    ]
+  },
+  {
+    "person_a": "Sean M. Biddlecombe",
+    "person_b": "Ruth Allen",
+    "label": false,
+    "path": null,
+    "citations": null
+  },
+  {
+    "person_a": "Richard F. Ambrose",
+    "person_b": "Dr. Bernard A. Harris Jr.",
+    "label": true,
+    "path": [
+      "Richard F. Ambrose",
+      "TEXTRON INC",
+      "R. Kerry Clark",
+      "Elevance Health, Inc.",
+      "Susan D. DeVore",
+      "Solventum Corp",
+      "Dr. Bernard A. Harris Jr."
+    ],
+    "citations": [
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/TXT/DEF 14A/0001552781-26-000084/full-submission.txt",
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/TXT/DEF 14A/0001552781-26-000084/full-submission.txt",
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/TXT/DEF 14A/0001552781-26-000084/full-submission.txt",
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/SOLV/DEF 14A/0001964738-26-000017/full-submission.txt",
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/SOLV/DEF 14A/0001964738-26-000017/full-submission.txt",
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/SOLV/DEF 14A/0001964738-26-000017/full-submission.txt"
+    ]
+  },
+  {
+    "person_a": "Richard Beebe",
+    "person_b": "Gary B. Smith",
+    "label": false,
+    "path": null,
+    "citations": null
+  },
+  {
+    "person_a": "Caroline Tsai",
+    "person_b": "James Kehoe",
+    "label": true,
+    "path": [
+      "Caroline Tsai",
+      "Fidelity National Information Services, Inc.",
+      "James Kehoe"
+    ],
+    "citations": [
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/FIS/DEF 14A/0001136893-26-000026/full-submission.txt",
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/FIS/DEF 14A/0001136893-26-000026/full-submission.txt"
+    ]
+  },
+  {
+    "person_a": "Jennifer K. Mann",
+    "person_b": "Cassandra S. Lee",
+    "label": true,
+    "path": [
+      "Jennifer K. Mann",
+      "VERIZON COMMUNICATIONS INC",
+      "Laxman Narasimhan",
+      "Starbucks Corporation",
+      "Marissa A. Mayer",
+      "AT&T Inc.",
+      "Cassandra S. Lee"
+    ],
+    "citations": [
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/VZ/DEF 14A/0001308179-26-000210/full-submission.txt",
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/VZ/DEF 14A/0001308179-26-000210/full-submission.txt",
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/VZ/DEF 14A/0001308179-26-000210/full-submission.txt",
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/T/DEF 14A/0001193125-26-119888/full-submission.txt",
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/HLT/DEF 14A/0001585689-26-000023/full-submission.txt",
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/NI/DEF 14A/0001140361-26-011851/full-submission.txt"
+    ]
+  },
+  {
+    "person_a": "Sandeep Reddy",
+    "person_b": "Matt Bilunas",
+    "label": true,
+    "path": [
+      "Sandeep Reddy",
+      "DOMINOS PIZZA INC",
+      "Corie S. Barry",
+      "BEST BUY CO INC",
+      "Matt Bilunas"
+    ],
+    "citations": [
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/DPZ/10-K/0001193125-26-062321/full-submission.txt",
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/DPZ/DEF 14A/0001286681-26-000012/full-submission.txt",
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/BBY/DEF 14A/0001140361-26-018265/full-submission.txt",
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/BBY/10-K/0000764478-26-000009/full-submission.txt"
+    ]
+  },
+  {
+    "person_a": "Kenneth W. Cornew",
+    "person_b": "Bradley S. Seaman",
+    "label": true,
+    "path": [
+      "Kenneth W. Cornew",
+      "STEEL DYNAMICS INC",
+      "Bradley S. Seaman"
+    ],
+    "citations": [
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/STLD/DEF 14A/0001104659-26-035826/full-submission.txt",
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/STLD/DEF 14A/0001104659-26-035826/full-submission.txt"
+    ]
+  },
+  {
+    "person_a": "Zoe Dickson",
+    "person_b": "Steven J. Gomo",
+    "label": true,
+    "path": [
+      "Zoe Dickson",
+      "3M CO",
+      "Mark Murphy",
+      "MICRON TECHNOLOGY INC",
+      "Steven J. Gomo"
+    ],
+    "citations": [
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/MMM/10-K/0000066740-26-000014/full-submission.txt",
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/MMM/10-K/0000066740-26-000014/full-submission.txt",
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/MU/10-K/0000723125-25-000028/full-submission.txt",
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/MU/DEF 14A/0000723125-25-000038/full-submission.txt"
+    ]
+  },
+  {
+    "person_a": "John E. Panichella",
+    "person_b": "KELLY C. CHAMBLISS",
+    "label": false,
+    "path": null,
+    "citations": null
+  },
+  {
+    "person_a": "Brendan J. Nelson",
+    "person_b": "Todd A. Penegor",
+    "label": false,
+    "path": null,
+    "citations": null
+  },
+  {
+    "person_a": "Alexander J. \"Sasha\" Weintraub",
+    "person_b": "Kurt Sievers",
+    "label": true,
+    "path": [
+      "Alexander J. \"Sasha\" Weintraub",
+      "Duke Energy CORP",
+      "Annette K. Clayton",
+      "NXP Semiconductors N.V.",
+      "Kurt Sievers"
+    ],
+    "citations": [
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/DUK/10-K/0001326160-26-000014/full-submission.txt",
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/DUK/DEF 14A/0001104659-26-032443/full-submission.txt",
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/DUK/DEF 14A/0001104659-26-032443/full-submission.txt",
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/NXPI/10-K/0001413447-26-000008/full-submission.txt"
+    ]
+  },
+  {
+    "person_a": "Michele G. Buck",
+    "person_b": "Michael J. Fiddelke",
+    "label": true,
+    "path": [
+      "Michele G. Buck",
+      "JPMORGAN CHASE & CO",
+      "James Dimon",
+      "Business Council",
+      "Gail K. Boudreaux",
+      "TARGET CORP",
+      "Michael J. Fiddelke"
+    ],
+    "citations": [
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/JPM/DEF 14A/0000019617-26-000096/full-submission.txt",
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/JPM/DEF 14A/0000019617-26-000096/full-submission.txt",
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/JPM/DEF 14A/0000019617-26-000096/full-submission.txt",
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/ELV/DEF 14A/0001156039-26-000031/full-submission.txt",
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/TGT/DEF 14A/0001628280-26-027508/full-submission.txt",
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/TGT/DEF 14A/0001628280-26-027508/full-submission.txt"
+    ]
+  },
+  {
+    "person_a": "Sara Wechter",
+    "person_b": "Jennifer W. Rumsey",
+    "label": true,
+    "path": [
+      "Sara Wechter",
+      "CITIGROUP INC",
+      "Diana L. Taylor",
+      "Columbia Business School",
+      "Bruno V. Di Leo",
+      "CUMMINS INC",
+      "Jennifer W. Rumsey"
+    ],
+    "citations": [
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/C/10-K/0000831001-26-000011/full-submission.txt",
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/C/DEF 14A/0001206774-26-000185/full-submission.txt",
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/C/DEF 14A/0001206774-26-000185/full-submission.txt",
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/CMI/DEF 14A/0001104659-26-039158/full-submission.txt",
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/CMI/DEF 14A/0001104659-26-039158/full-submission.txt",
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/CMI/DEF 14A/0001104659-26-039158/full-submission.txt"
+    ]
+  },
+  {
+    "person_a": "Adam Keeney, Ph.D.",
+    "person_b": "Jesus B. Mantas",
+    "label": true,
+    "path": [
+      "Adam Keeney, Ph.D.",
+      "BIOGEN INC.",
+      "Jesus B. Mantas"
+    ],
+    "citations": [
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/BIIB/10-K/0000875045-26-000013/full-submission.txt",
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/BIIB/DEF 14A/0001193125-26-187303/full-submission.txt"
+    ]
+  },
+  {
+    "person_a": "Robert R. Wingo",
+    "person_b": "Morgan Flatley",
+    "label": false,
+    "path": null,
+    "citations": null
+  },
+  {
+    "person_a": "Christopher Cummiskey",
+    "person_b": "John F. Brock",
+    "label": true,
+    "path": [
+      "Christopher Cummiskey",
+      "SOUTHERN CO",
+      "James O. \"Jimmy\" Etheredge",
+      "Georgia Tech Foundation",
+      "John F. Brock"
+    ],
+    "citations": [
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/SO/10-K/0000092122-26-000006/full-submission.txt",
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/SO/DEF 14A/0000092122-26-000028/full-submission.txt",
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/SO/DEF 14A/0000092122-26-000028/full-submission.txt",
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/RCL/DEF 14A/0000884887-26-000017/full-submission.txt"
+    ]
+  },
+  {
+    "person_a": "Kevin Weil",
+    "person_b": "Gerard Warner",
+    "label": false,
+    "path": null,
+    "citations": null
+  },
+  {
+    "person_a": "Dino DiPerna",
+    "person_b": "H. Lamar McKay",
+    "label": false,
+    "path": null,
+    "citations": null
+  },
+  {
+    "person_a": "Debra L. Reed-Klages",
+    "person_b": "Zane Rowe",
+    "label": true,
+    "path": [
+      "Debra L. Reed-Klages",
+      "Chevron Corporation",
+      "Rhonda J. Morris",
+      "Workday, Inc.",
+      "Zane Rowe"
+    ],
+    "citations": [
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/LMT/DEF 14A/0000936468-26-000004/full-submission.txt",
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/WDAY/DEF 14A/0001104659-26-055687/full-submission.txt",
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/WDAY/DEF 14A/0001104659-26-055687/full-submission.txt",
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/WDAY/10-K/0001327811-26-000014/full-submission.txt"
+    ]
+  }
+]

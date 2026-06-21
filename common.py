@@ -25,8 +25,11 @@ from hud.eval import HUDRuntime, LocalRuntime, Provider, Taskset
 from tasks_train import tasks as _train_tasks
 
 # Deployed taskset to train on (its name or id, from `hud deploy` + `hud sync`).
+# coi-train-v2: fresh taskset for the 140-case deadline mix. (The original
+# "coi-train" got polluted to 205 tasks because `hud sync` is additive — it
+# added the new tasks but didn't drop the removed 3-hop/2-hop ones.)
 # Leave empty for the local smoke-test against env.py.
-TASKSET = "coi-train"
+TASKSET = "coi-train-v2"
 
 # How many tasks the local smoke-test uses (keep small — it's only a wiring check).
 LOCAL_SAMPLE = 4

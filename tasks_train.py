@@ -1,9 +1,11 @@
-"""Training task list — 180 cases (40 neg, 60 1-hop, 45 2-hop, 35 3-hop).
+"""Training task list — 140 cases (45 neg, 80 1-hop, 15 2-hop, 0 3-hop).
 
-Curriculum-weighted toward 1-hop (the foundational skill the agent must learn first:
-find a connection and submit a non-empty path) while keeping enough 2-/3-hop for
-multi-hop competence. Used by the training loop. Never use this for evaluation — see
-tasks_test.py.
+Deadline mix: weighted toward the fast AND learnable tiers (negatives abstain in
+~25s with no enrich; 1-hop is the gradient tier). 3-hop dropped — it's both slow
+(many minute-scale sixtyfour calls) and at 0% on the base model, so it only yields
+errored/zero-gradient rollouts. A few 2-hop kept as stretch cases. The held-out
+cases_test.json keeps the full distribution for before/after eval. Used by the
+training loop. Never use this for evaluation — see tasks_test.py.
 """
 
 import json

@@ -1,0 +1,2507 @@
+[INFO] coi-investigator | Loaded graph: 7008 nodes, 7405 edges
+[INFO] coi-investigator | Training tasks registered: 180
+capped to 4 tasks/step (20 rollouts/step)
+[INFO] hud.eval.job | job: https://hud.ai/jobs/bcbe297ae6ab4660bd353cfbc3462bfd
+[INFO] hud.eval.taskset | running 20 rollouts (4 tasks x 5 group), max_concurrent=3
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=17>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=17>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=17>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=15>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: sent 1011 (internal error) keepalive ping timeout; no close frame received
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=17>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=14>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=22>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[INFO] hud.agents.tool_agent | step 1/30
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=27>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 996, in tcp_to_ws
+    await websocket.send(data)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 485, in send
+    async with self.send_context():
+               ^^^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/.local/share/uv/python/cpython-3.12.11-macos-aarch64-none/lib/python3.12/contextlib.py", line 210, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 965, in send_context
+    raise self.protocol.close_exc from original_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=21>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=16>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: sent 1011 (internal error) keepalive ping timeout; no close frame received
+[INFO] hud.agents.tool_agent | step 1/30
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=35>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=29>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=29>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=29>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=29>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[INFO] hud.agents.tool_agent | step 1/30
+[INFO] hud.agents.tool_agent |   → enrich_person, enrich_person
+[INFO] hud.agents.tool_agent |   → enrich_person, enrich_person
+[INFO] hud.agents.tool_agent |   → enrich_person
+[INFO] hud.agents.tool_agent | step 2/30
+[INFO] hud.agents.tool_agent |   → enrich_person
+[INFO] hud.agents.tool_agent | step 2/30
+[INFO] hud.agents.tool_agent |   → submit
+[INFO] hud.agents.tool_agent | step 3/30
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=17>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=17>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=17>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=17>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=17>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[INFO] hud.agents.tool_agent | step 1/30
+[INFO] hud.agents.tool_agent |   → enrich_person, enrich_person
+[WARNING] hud.eval.run | rollout agent loop timed out after 600s; grading partial
+[WARNING] hud.eval.run | rollout agent loop timed out after 600s; grading partial
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=23>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: sent 1011 (internal error) keepalive ping timeout; no close frame received
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=23>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=23>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=23>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=23>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=23>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=23>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=19>
+TimeoutError: timed out while closing connection
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: sent 1011 (internal error) keepalive ping timeout; no close frame received
+[INFO] hud.agents.tool_agent | step 1/30
+[INFO] hud.agents.tool_agent |   → enrich_person
+[INFO] hud.agents.tool_agent | step 2/30
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=32>
+TimeoutError: timed out while closing connection
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: sent 1011 (internal error) keepalive ping timeout; no close frame received
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=16>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=16>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[INFO] hud.agents.tool_agent |   → enrich_person
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=16>
+Traceback (most recent call last):
+  File "/Users/marcusleong/.local/share/uv/python/cpython-3.12.11-macos-aarch64-none/lib/python3.12/asyncio/selector_events.py", line 1075, in write
+    n = self._sock.send(data)
+        ^^^^^^^^^^^^^^^^^^^^^
+BrokenPipeError: [Errno 32] Broken pipe
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=31>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=31>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=31>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=31>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=31>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=31>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=31>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=31>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=31>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=31>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=31>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[INFO] hud.agents.tool_agent | step 1/30
+[INFO] hud.agents.tool_agent |   → enrich_person
+[INFO] hud.agents.tool_agent | step 3/30
+[WARNING] hud.eval.run | rollout agent loop timed out after 600s; grading partial
+[INFO] hud.agents.tool_agent |   → sec_search
+[INFO] hud.agents.tool_agent | step 4/30
+[INFO] hud.agents.tool_agent |   → sec_search
+[INFO] hud.agents.tool_agent | step 5/30
+[INFO] hud.agents.tool_agent |   → submit
+[INFO] hud.agents.tool_agent | step 6/30
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=15>
+TimeoutError: timed out while closing connection
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: sent 1011 (internal error) keepalive ping timeout; no close frame received
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=18>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=18>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=18>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=18>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=18>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=18>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[INFO] hud.agents.tool_agent | step 1/30
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=15>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=15>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=15>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=15>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=15>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=15>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=15>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=15>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=15>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=15>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=15>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=15>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=15>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=15>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=15>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=15>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[INFO] hud.agents.tool_agent |   → enrich_person, enrich_person
+[INFO] hud.agents.tool_agent | step 1/30
+[INFO] hud.agents.tool_agent |   → enrich_person, enrich_person
+[INFO] hud.agents.tool_agent | step 2/30
+[INFO] hud.agents.tool_agent | step 2/30
+[INFO] hud.agents.tool_agent |   → submit
+[INFO] hud.agents.tool_agent | step 3/30
+[INFO] hud.agents.tool_agent |   → submit
+[INFO] hud.agents.tool_agent | step 3/30
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=20>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=20>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=17>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: sent 1011 (internal error) keepalive ping timeout; no close frame received
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=17>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=17>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=17>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=17>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=17>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=17>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=26>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[INFO] hud.agents.tool_agent | step 1/30
+[INFO] hud.agents.tool_agent | step 1/30
+[INFO] hud.agents.tool_agent |   → enrich_person, enrich_person
+[INFO] hud.agents.tool_agent |   → enrich_person, enrich_person
+[INFO] hud.agents.tool_agent | step 2/30
+[INFO] hud.agents.tool_agent | step 2/30
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=33>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[INFO] hud.agents.tool_agent |   → submit
+[INFO] hud.agents.tool_agent | step 3/30
+[INFO] hud.agents.tool_agent |   → submit
+[INFO] hud.agents.tool_agent | step 3/30
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=19>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=16>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=16>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=16>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=16>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=16>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=16>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=16>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=16>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=26>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[INFO] hud.agents.tool_agent | step 1/30
+[INFO] hud.agents.tool_agent | step 1/30
+[INFO] openai._base_client | Retrying request to /chat/completions in 0.436147 seconds
+[INFO] openai._base_client | Retrying request to /chat/completions in 0.461173 seconds
+[INFO] openai._base_client | Retrying request to /chat/completions in 0.949585 seconds
+[INFO] openai._base_client | Retrying request to /chat/completions in 0.836068 seconds
+[WARNING] hud.agents.openai_compatible.agent | Error getting response Error code: 503 - {'error': {'message': "no healthy keys for provider 'tinker'", 'type': 'upstream_overloaded', 'param': None}}
+[WARNING] hud.agents.openai_compatible.agent | Error getting response Error code: 503 - {'error': {'message': "no healthy keys for provider 'tinker'", 'type': 'upstream_overloaded', 'param': None}}
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=16>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=18>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=15>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=15>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=15>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=15>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[INFO] hud.agents.tool_agent | step 1/30
+[INFO] hud.agents.tool_agent | step 1/30
+[INFO] hud.agents.tool_agent |   → enrich_person
+[INFO] hud.agents.tool_agent |   → enrich_person, enrich_person
+[WARNING] hud.eval.run | rollout agent loop timed out after 600s; grading partial
+[INFO] hud.agents.tool_agent | step 2/30
+[INFO] hud.agents.tool_agent |   → enrich_person
+[INFO] hud.agents.tool_agent | step 2/30
+[INFO] hud.agents.tool_agent |   → submit
+[INFO] hud.agents.tool_agent | step 3/30
+[INFO] hud.agents.tool_agent | step 3/30
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=30>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: sent 1011 (internal error) keepalive ping timeout; no close frame received
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=22>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=22>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=22>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=22>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=22>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=22>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=22>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[INFO] hud.agents.tool_agent | step 1/30
+[INFO] hud.agents.tool_agent |   → submit
+[INFO] hud.agents.tool_agent | step 4/30
+[INFO] hud.agents.tool_agent |   → enrich_person, enrich_person
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=16>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: sent 1011 (internal error) keepalive ping timeout; no close frame received
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=16>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=20>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=15>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=15>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=15>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=14>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=34>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[INFO] hud.agents.tool_agent | step 1/30
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=30>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[INFO] hud.agents.tool_agent | step 1/30
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=31>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[INFO] hud.agents.tool_agent |   → enrich_person, enrich_person
+[INFO] hud.agents.tool_agent |   → enrich_person, enrich_person
+[INFO] hud.agents.tool_agent | step 2/30
+[INFO] hud.agents.tool_agent |   → submit
+[INFO] hud.agents.tool_agent | step 3/30
+[INFO] hud.agents.tool_agent |   → submit
+[INFO] hud.agents.tool_agent | step 4/30
+[INFO] hud.agents.tool_agent | step 2/30
+[INFO] hud.agents.tool_agent |   → sec_search, sec_search
+[INFO] hud.agents.tool_agent | step 3/30
+[INFO] hud.agents.tool_agent |   → submit
+[INFO] hud.agents.tool_agent | step 4/30
+[INFO] hud.agents.tool_agent | step 2/30
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=22>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=22>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=22>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[INFO] hud.agents.tool_agent |   → sec_search, sec_search
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=29>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=29>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[INFO] hud.agents.tool_agent | step 1/30
+[INFO] hud.agents.tool_agent | step 3/30
+[INFO] hud.agents.tool_agent |   → submit
+[INFO] hud.agents.tool_agent | step 4/30
+[INFO] hud.agents.tool_agent |   → enrich_person, enrich_person
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=24>
+TimeoutError: timed out while closing connection
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: sent 1011 (internal error) keepalive ping timeout; no close frame received
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=14>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=14>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=14>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=23>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=14>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=14>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=22>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=14>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=22>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=14>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=26>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[INFO] hud.agents.tool_agent | step 1/30
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=17>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=17>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=17>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=17>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=17>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=17>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=17>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[INFO] hud.agents.tool_agent | step 1/30
+[INFO] hud.agents.tool_agent |   → enrich_person, enrich_person
+[INFO] hud.agents.tool_agent |   → enrich_person, enrich_person
+[INFO] hud.agents.tool_agent | step 2/30
+[INFO] hud.agents.tool_agent |   → sec_search, sec_search
+[INFO] hud.agents.tool_agent | step 3/30
+[INFO] hud.agents.tool_agent |   → submit
+[INFO] hud.agents.tool_agent | step 4/30
+[INFO] hud.agents.tool_agent | step 2/30
+[INFO] hud.agents.tool_agent |   → submit
+[INFO] hud.agents.tool_agent | step 3/30
+[WARNING] hud.eval.run | rollout agent loop timed out after 600s; grading partial
+step  0 | reward 0.350 (9/20) | rollout 2021.7s  31946tok   16tok/s | train  19.7s loss -671.9624 | optim 3 datums 53 failed 2/20
+[INFO] hud.eval.taskset | running 20 rollouts (4 tasks x 5 group), max_concurrent=3
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=20>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=15>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=15>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=15>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=15>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=15>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=19>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=27>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 996, in tcp_to_ws
+    await websocket.send(data)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 485, in send
+    async with self.send_context():
+               ^^^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/.local/share/uv/python/cpython-3.12.11-macos-aarch64-none/lib/python3.12/contextlib.py", line 210, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 965, in send_context
+    raise self.protocol.close_exc from original_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[INFO] hud.agents.tool_agent | step 1/30
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=19>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=26>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=19>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=28>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[INFO] hud.agents.tool_agent | step 1/30
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=28>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=28>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[INFO] hud.agents.tool_agent | step 1/30
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=24>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[INFO] hud.agents.tool_agent |   → enrich_person, enrich_person
+[INFO] hud.agents.tool_agent |   → enrich_person, enrich_person
+[INFO] hud.agents.tool_agent |   → enrich_person, enrich_person
+[INFO] hud.agents.tool_agent | step 2/30
+[INFO] hud.agents.tool_agent | step 2/30
+[INFO] hud.agents.tool_agent |   → sec_search, sec_search
+[INFO] hud.agents.tool_agent |   → submit
+[INFO] hud.agents.tool_agent | step 3/30
+[INFO] hud.agents.tool_agent | step 3/30
+[INFO] hud.agents.tool_agent |   → enrich_company, enrich_company
+[INFO] hud.agents.tool_agent | step 4/30
+[INFO] hud.agents.tool_agent |   → submit
+[INFO] hud.agents.tool_agent | step 5/30
+[INFO] hud.agents.tool_agent |   → submit
+[INFO] hud.agents.tool_agent | step 6/30
+[INFO] hud.agents.tool_agent |   → submit
+[INFO] hud.agents.tool_agent | step 7/30
+[INFO] hud.agents.tool_agent |   → submit
+[INFO] hud.agents.tool_agent | step 8/30
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=36>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=22>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=22>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=22>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=22>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[ERROR] asyncio | Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=22>
+Traceback (most recent call last):
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 827, in _forward_runtime_connection
+    await _splice_websocket(reader, writer, websocket)
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 1022, in _splice_websocket
+    raise result
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/hud/eval/runtime.py", line 999, in ws_to_tcp
+    async for message in websocket:
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 244, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/marcusleong/c-o-investigator/.venv/lib/python3.12/site-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+[INFO] hud.agents.tool_agent | step 1/30
+[INFO] hud.agents.tool_agent |   → enrich_person, enrich_person

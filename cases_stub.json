@@ -1,0 +1,23 @@
+[
+  {
+    "person_a": "Jane Smith",
+    "person_b": "Robert Chen",
+    "label": true,
+    "path": ["Jane Smith", "Acme Corp", "Robert Chen"],
+    "citations": ["stub/jane-smith-acme", "stub/robert-chen-acme"]
+  },
+  {
+    "person_a": "Alice Wong",
+    "person_b": "David Lee",
+    "label": true,
+    "path": ["Alice Wong", "Globex Inc", "David Lee"],
+    "citations": ["stub/alice-wong-globex", "stub/david-lee-globex"]
+  },
+  {
+    "person_a": "Michael Torres",
+    "person_b": "Sara Patel",
+    "label": false,
+    "path": null,
+    "citations": null
+  }
+]

@@ -1,0 +1,40 @@
+[project]
+name = "coi-investigator"
+version = "0.1.0"
+description = "COI Investigator: RL environment for conflict-of-interest discovery via SEC filings"
+requires-python = ">=3.11,<3.13"
+dependencies = [
+    "hud-python>=0.6.5",
+    "fastmcp>=3,<4",
+    "httpx>=0.23.0,<1",
+    "python-dotenv>=1.0.0",
+    # Stage 0 dependencies (graph building)
+    "anthropic>=0.40.0",
+    "beautifulsoup4>=4.12.0",
+    "html2text>=2024.2.26",
+    "lxml>=5.0.0",
+    "networkx>=3.0",
+    "rapidfuzz>=3.0.0",
+    "requests>=2.31.0",
+    "sec-edgar-downloader>=5.0.0",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.0.0",
+    "pytest-asyncio>=0.23.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hud]
+image = "coi-investigator:dev"
+
+[tool.hatch.build]
+only-packages = false
+include = ["env.py", "tasks.py"]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"

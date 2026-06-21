@@ -20,12 +20,6 @@ Stage 0 (ground-truth graph)
 Stage 5 (visualization) runs in parallel throughout
 ```
 
-**Team split (2–3 people):**
-- Person 1: Stage 0 → graph
-- Person 2: Stages 1–2 → harness
-- Person 3: Stage 5 → demo
-- Everyone converges on Stage 3
-
 ---
 
 ## Stage 0 — Build the answer key
@@ -237,6 +231,7 @@ Agent gives it a specific claim like "Jane Smith sits on Blackrock's board" and 
 Takes either a company name or a person name. Always goes through EDGAR directly — no pre-built maps.
 
 For a **company name**, the flow is:
+
 1. Query EDGAR entity search to resolve name → CIK: `https://efts.sec.gov/LATEST/search-index?q=&entity={company_name}&forms=DEF+14A,10-K`
 2. Use the CIK to fetch the full filing history: `https://data.sec.gov/submissions/CIK{cik}.json`
 3. Return the most recent DEF 14A and 10-K accession numbers as citable sources
@@ -262,16 +257,16 @@ This is the action space. The agent's job is deciding which entity to enrich nex
 
 When the agent submits, you run its answer through a scoring function that checks it against the Stage 0 graph:
 
-| What happened | Score |
-|---|---|
-| Claimed edge exists in ground-truth graph | +reward |
-| Claimed edge doesn't exist (hallucinated) | -penalty |
-| Citation actually supports its claimed edge | +reward |
-| Citation doesn't support its claimed edge | heavy penalty |
-| Path connects A to B end-to-end | bonus |
-| Correctly says "no connection" on a negative case | +reward |
-| Fabricates a connection on a negative case | heavy penalty |
-| Each tool call made | small -cost |
+| What happened                                     | Score         |
+| ------------------------------------------------- | ------------- |
+| Claimed edge exists in ground-truth graph         | +reward       |
+| Claimed edge doesn't exist (hallucinated)         | -penalty      |
+| Citation actually supports its claimed edge       | +reward       |
+| Citation doesn't support its claimed edge         | heavy penalty |
+| Path connects A to B end-to-end                   | bonus         |
+| Correctly says "no connection" on a negative case | +reward       |
+| Fabricates a connection on a negative case        | heavy penalty |
+| Each tool call made                               | small -cost   |
 
 ### The principle
 
@@ -301,6 +296,7 @@ task given → agent calls tools → agent submits → verifier scores → rewar
 ```
 
 You're checking:
+
 - Do trajectories complete?
 - Do tools fire correctly?
 - Are rewards sensible — not all 0, not all 1?
@@ -463,12 +459,53 @@ hud eval tasks.py claude --task-ids coi-jane-smith-robert-chen -y --runtime loca
 
 ## Key risks and mitigations
 
-| Risk | Mitigation |
-|---|---|
-| SEC parsing eats the day | Fall back to OpenAlex co-authorship at hour 3 |
-| Rewards are all 0 or all 1 | Re-tune case difficulty in Stage 3 before training |
-| GRPO doesn't converge in time | Stop at Stage 3, demo the environment + trajectories instead |
-| Tools are flaky / rate-limited | Build thin fallback mocks for SixtyFour / Exa during dev |
+| Risk                           | Mitigation                                                   |
+| ------------------------------ | ------------------------------------------------------------ |
+| SEC parsing eats the day       | Fall back to OpenAlex co-authorship at hour 3                |
+| Rewards are all 0 or all 1     | Re-tune case difficulty in Stage 3 before training           |
+| GRPO doesn't converge in time  | Stop at Stage 3, demo the environment + trajectories instead |
+| Tools are flaky / rate-limited | Build thin fallback mocks for SixtyFour / Exa during dev     |
+
+---
+
+## If you have time — enhancements
+
+### Citation validation in the grader (Stage 2 upgrade)
+
+**Current state:** `grade_submission` scores citations by count only — it checks that the agent submitted one citation per edge, but never verifies the citation actually supports the claimed edge. The agent can score full citation marks with dummy URLs.
+
+**The upgrade:** after the agent submits, fetch each citation URL and check that it mentions both nodes of the claimed edge:
+
+```python
+async def _citation_supports_edge(url: str, node_a: str, node_b: str) -> bool:
+    """Return True if the fetched page mentions both nodes."""
+    try:
+        text = await _exa_fetch(url, max_chars=5000)
+        return node_a.lower() in text.lower() and node_b.lower() in text.lower()
+    except Exception:
+        return False
+```
+
+Then replace the citation coverage subscore in `grade_submission`:
+
+```python
+# Replace count-based citation score with content-based validation
+supported = 0
+for i, citation in enumerate(citations[:n_edges]):
+    if await _citation_supports_edge(citation, path[i], path[i + 1]):
+        supported += 1
+citation_score = supported / max(n_edges, 1)
+```
+
+**What this trains:** the agent learns it must submit citations that actually contain the names of the nodes it claims to connect — not just any URL. This is true citation-gating, not citation-counting.
+
+**Prerequisites:**
+
+1. Convert `cases.json` ground-truth citations from local file paths to real EDGAR URLs. Extract the accession number from the path (e.g. `0000320187-25-000047`) and build: `https://www.sec.gov/Archives/edgar/data/{cik}/{accession_nodashes}/`
+2. `grade_submission` becomes async — update the `conflict_of_interest` template to `await grade_submission(...)`
+3. Expect ~1–2s extra latency per episode per edge (one Exa fetch each)
+
+**Worth it?** Yes if Stage 3 is solid and you have 1–2 hours. The current citation subscore is the weakest part of the grader — a judge who digs in will notice it rewards quantity not quality.
 
 ---
 

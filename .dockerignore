@@ -1,0 +1,8 @@
+# hud deploy builds the upload context from .gitignore + .dockerignore (this file
+# has higher priority). .gitignore excludes `data/`, but the Dockerfile needs
+# data/graph.json (grader answer key) and data/cases.json COPYd into the image.
+# Re-include the dir (so the context walk descends into it) and the two files.
+# .env stays excluded by DEFAULT_EXCLUDES — secrets never enter the image.
+!data
+!data/graph.json
+!data/cases.json

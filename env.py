@@ -195,9 +195,9 @@ async def enrich_person(name: str, company: str = "", linkedin: str = "") -> dic
         lead_info["linkedin"] = linkedin
     struct = {
         "current_role": "Current job title and company",
-        "board_seats": "Other public company boards this person sits on",
-        "prior_companies": "Notable prior roles or companies",
-        "sources": "List of source URLs the research is based on",
+        "board_seats": {"description": "Other public company boards this person sits on", "type": "list[str]"},
+        "prior_companies": {"description": "Notable prior roles or companies", "type": "list[str]"},
+        "sources": {"description": "Source URLs the research is based on", "type": "list[str]"},
     }
     result = await _sixtyfour_post("/enrich-lead", {"lead_info": lead_info, "struct": struct, "tier": "micro"})
     if "error" not in result:
@@ -215,10 +215,10 @@ async def enrich_company(company: str, website: str = "") -> dict[str, Any]:
     target = f"{company} ({website})" if website else company
     struct = {
         "what_they_do": "One-sentence description of the company",
-        "board_members": "Names of current board members or directors",
-        "key_executives": "Names and titles of key executive officers",
-        "founders": "Names of the founders",
-        "sources": "List of source URLs the research is based on",
+        "board_members": {"description": "Names of current board members or directors", "type": "list[str]"},
+        "key_executives": {"description": "Names and titles of key executive officers", "type": "list[str]"},
+        "founders": {"description": "Names of the founders", "type": "list[str]"},
+        "sources": {"description": "Source URLs the research is based on", "type": "list[str]"},
     }
     result = await _sixtyfour_post(
         "/company-intelligence", {"target_company": target, "struct": struct, "tier": "micro"}
@@ -289,10 +289,10 @@ async def sec_search(name: str) -> dict[str, Any]:
 # ---------------------------------------------------------------------------
 
 async def submit(path: list[str], citations: list[str]) -> str:
-    """Submit the discovered connection path and one citation per edge.
+    """REQUIRED: Call this tool to finish the task. This is the ONLY valid way to end.
 
-    Call this when you are confident you have found the chain of connections
-    between the two people, or when you are confident no connection exists.
+    You MUST call submit() — writing your conclusion as text does not count and scores zero.
+    Call it as soon as you have enough evidence, or to report no connection found.
 
     Parameters:
         path      : Ordered list of alternating person/company names forming the
@@ -304,7 +304,7 @@ async def submit(path: list[str], citations: list[str]) -> str:
     _submitted["path"] = path
     _submitted["citations"] = citations
     logger.info("Agent submitted: path=%s", path)
-    return "Submitted. Your answer has been recorded."
+    return "Submitted. Task complete — stop here and do not call any more tools."
 
 
 # ---------------------------------------------------------------------------
@@ -373,7 +373,8 @@ def grade_submission(
     # (e.g. "L3Harris Technologies" vs "L3Harris Technologies, Inc.")
     def _best_match(name: str) -> str:
         from rapidfuzz import process
-        match = process.extractOne(name, list(graph.nodes()), score_cutoff=85)
+        from rapidfuzz.utils import default_process
+        match = process.extractOne(name, list(graph.nodes()), processor=default_process, score_cutoff=80)
         return match[0] if match else name
 
     edge_scores: list[float] = []
@@ -486,24 +487,28 @@ async def conflict_of_interest(
     _submitted.clear()
 
     yield (
-        f"Investigate whether {person_a} and {person_b} have a conflict of interest — "
-        "a shared connection through board memberships or executive roles at public companies.\n\n"
-        "Work through the chain one hop at a time using any combination of these tools:\n"
-        "  - enrich_person(name) — returns board seats and prior companies directly; "
-        "use this to discover what boards a person sits on.\n"
-        "  - enrich_company(name) — returns board members and key executives; "
-        "use this to discover who sits on a company's board.\n"
-        "  - sec_search(name) — search SEC EDGAR for filings mentioning a person or company; "
-        "returns filing URLs usable as citations.\n"
-        "  - search(query) / fetch(url) — web search for corroboration and additional context.\n\n"
-        "When you are confident you have found the connection, call submit(path=[...], citations=[...]) "
-        "where path is the ordered list of alternating person and company names "
-        "(e.g. ['Jane Smith', 'Acme Corp', 'Robert Chen']) and citations contains one source URL or "
-        "EDGAR accession number per edge.\n\n"
-        "If you find no connection after thorough research, call submit(path=[], citations=[]).\n\n"
-        "IMPORTANT: You MUST call submit() to complete this task. Writing your findings in text "
-        "without calling submit() scores zero regardless of how correct your reasoning is. "
-        "Every episode must end with a submit() call."
+        f"Determine whether {person_a} and {person_b} are connected through shared board "
+        "memberships or executive roles at public companies — a potential conflict of interest.\n\n"
+        f"They may be directly connected through one shared company, connected through a chain "
+        "of intermediaries, or have no connection at all. All three outcomes are equally valid — "
+        "do not assume a connection exists. To find indirect connections, search the companies "
+        "and people you discover along the way — a chain may require several hops.\n\n"
+        "Tools available:\n"
+        "  - sec_search(name) — search SEC EDGAR filings for a person or company name. "
+        "Returns filing URLs suitable as citations.\n"
+        "  - search(query) / fetch(url) — web search and page retrieval for additional context.\n"
+        "  - enrich_person(name) / enrich_company(name) — deep research on a person or company; "
+        "returns board seats, roles, and affiliations.\n\n"
+        "When you have reached a conclusion, call submit() — this is the only way to record your answer:\n"
+        "  submit(path=['Person A', 'Company X', 'Person B', ...], citations=['one_url_per_edge', ...]) "
+        "if a connection exists.\n"
+        "  submit(path=[], citations=[]) ONLY if you are confident no connection exists.\n\n"
+        "IMPORTANT — do not give up on a partial trail. If you have found part of a connection "
+        "but cannot complete the full chain, submit your best partial path rather than an empty one. "
+        "Every correct edge you submit earns credit; an empty path earns nothing when a connection "
+        "actually exists. Submit an empty path only when you genuinely believe the two people are "
+        "unconnected — never as a way to give up on a hard chain.\n\n"
+        "Writing your conclusion as text without calling submit() scores zero."
     )
 
     result = grade_submission(_submitted, label, ground_truth_path, ground_truth_citations, G)

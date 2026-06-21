@@ -1,0 +1,7 @@
+# Generated visualization outputs — regenerate with build_viz.py / enrich_overlay.py
+*.html
+overlay*.json
+ties*.json
+cache/
+__pycache__/
+dist/

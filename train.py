@@ -36,10 +36,10 @@ from hud.agents.types import AgentStep
 from hud.eval import Job, Taskset
 
 # The trainable gateway model to sample from and train, in place.
-# coi-clean: a fresh fork of Qwen3 8B (Tinker) base — pristine, no warmup drift,
-# so the before/after comparison starts from base. (coi-investigator had 3 prior
-# micro optim steps from smoke/check/trial runs.)
-MODEL = "coi-clean"
+# coi-clean2: fresh Qwen3 8B (Tinker) fork — pristine base, no drift. (coi-clean
+# was degraded by a run at lr=1e-5 that eroded reward 0.66 -> 0.46; abandoned.
+# Restarting here with a lower learning rate.)
+MODEL = "coi-clean2"
 
 
 def _output_tokens(runs: list) -> int:

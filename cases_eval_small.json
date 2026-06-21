@@ -1,0 +1,272 @@
+[
+  {
+    "person_a": "Mathew R. Watson",
+    "person_b": "Claudine Adamo",
+    "label": false,
+    "path": null,
+    "citations": null
+  },
+  {
+    "person_a": "John A. Bryant",
+    "person_b": "Cynthia A. Niekamp",
+    "label": true,
+    "path": [
+      "John A. Bryant",
+      "BALL Corp",
+      "Cynthia A. Niekamp"
+    ],
+    "citations": [
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/BALL/DEF 14A/0001104659-26-029499/full-submission.txt",
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/BALL/DEF 14A/0001104659-26-029499/full-submission.txt"
+    ]
+  },
+  {
+    "person_a": "Toni Jennings",
+    "person_b": "R. Andrew Watts",
+    "label": true,
+    "path": [
+      "Toni Jennings",
+      "BROWN & BROWN, INC.",
+      "R. Andrew Watts"
+    ],
+    "citations": [
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/BRO/DEF 14A/0001193125-26-122172/full-submission.txt",
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/BRO/10-K/0001193125-26-046984/full-submission.txt"
+    ]
+  },
+  {
+    "person_a": "Toni Jennings",
+    "person_b": "Archana Deskus",
+    "label": true,
+    "path": [
+      "Toni Jennings",
+      "BROWN & BROWN, INC.",
+      "Joia M. Johnson",
+      "Global Payments Inc.",
+      "Archana Deskus"
+    ],
+    "citations": [
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/BRO/DEF 14A/0001193125-26-122172/full-submission.txt",
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/BRO/DEF 14A/0001193125-26-122172/full-submission.txt",
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/BRO/DEF 14A/0001193125-26-122172/full-submission.txt",
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/CTSH/DEF 14A/0001308179-26-000290/full-submission.txt"
+    ]
+  },
+  {
+    "person_a": "Toni Jennings",
+    "person_b": "Kathleen M. Mazzarella",
+    "label": true,
+    "path": [
+      "Toni Jennings",
+      "BROWN & BROWN, INC.",
+      "Joia M. Johnson",
+      "Global Payments Inc.",
+      "William B. Plummer",
+      "WASTE MANAGEMENT INC",
+      "Kathleen M. Mazzarella"
+    ],
+    "citations": [
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/BRO/DEF 14A/0001193125-26-122172/full-submission.txt",
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/BRO/DEF 14A/0001193125-26-122172/full-submission.txt",
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/BRO/DEF 14A/0001193125-26-122172/full-submission.txt",
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/WM/DEF 14A/0001104659-26-037381/full-submission.txt",
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/WM/DEF 14A/0001104659-26-037381/full-submission.txt",
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/WM/DEF 14A/0001104659-26-037381/full-submission.txt"
+    ]
+  },
+  {
+    "person_a": "Joe Cumello",
+    "person_b": "Lisa A. Kro",
+    "label": false,
+    "path": null,
+    "citations": null
+  },
+  {
+    "person_a": "Angela Hwang",
+    "person_b": "Lanette Shaffer Werner",
+    "label": true,
+    "path": [
+      "Angela Hwang",
+      "UNITED PARCEL SERVICE INC",
+      "John Morikis",
+      "GENERAL MILLS INC",
+      "Lanette Shaffer Werner"
+    ],
+    "citations": [
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/UPS/DEF 14A/0001628280-26-019856/full-submission.txt",
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/UPS/DEF 14A/0001628280-26-019856/full-submission.txt",
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/GIS/DEF 14A/0001308179-25-000581/full-submission.txt",
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/GIS/10-K/0001193125-25-147079/full-submission.txt"
+    ]
+  },
+  {
+    "person_a": "Angela Hwang",
+    "person_b": "Kofi A. Bruce",
+    "label": true,
+    "path": [
+      "Angela Hwang",
+      "UNITED PARCEL SERVICE INC",
+      "John Morikis",
+      "GENERAL MILLS INC",
+      "Kofi A. Bruce"
+    ],
+    "citations": [
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/UPS/DEF 14A/0001628280-26-019856/full-submission.txt",
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/UPS/DEF 14A/0001628280-26-019856/full-submission.txt",
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/GIS/DEF 14A/0001308179-25-000581/full-submission.txt",
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/GIS/10-K/0001193125-25-147079/full-submission.txt"
+    ]
+  },
+  {
+    "person_a": "John A. Bryant",
+    "person_b": "Daniel J. Rabbitt",
+    "label": true,
+    "path": [
+      "John A. Bryant",
+      "BALL Corp",
+      "Daniel J. Rabbitt"
+    ],
+    "citations": [
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/BALL/DEF 14A/0001104659-26-029499/full-submission.txt",
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/BALL/10-K/0001104659-26-017410/full-submission.txt"
+    ]
+  },
+  {
+    "person_a": "Toni Jennings",
+    "person_b": "Jatin Dalal",
+    "label": true,
+    "path": [
+      "Toni Jennings",
+      "BROWN & BROWN, INC.",
+      "Joia M. Johnson",
+      "Global Payments Inc.",
+      "Archana Deskus",
+      "COGNIZANT TECHNOLOGY SOLUTIONS CORP",
+      "Jatin Dalal"
+    ],
+    "citations": [
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/BRO/DEF 14A/0001193125-26-122172/full-submission.txt",
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/BRO/DEF 14A/0001193125-26-122172/full-submission.txt",
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/BRO/DEF 14A/0001193125-26-122172/full-submission.txt",
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/CTSH/DEF 14A/0001308179-26-000290/full-submission.txt",
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/CTSH/DEF 14A/0001308179-26-000290/full-submission.txt",
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/CTSH/10-K/0001058290-26-000008/full-submission.txt"
+    ]
+  },
+  {
+    "person_a": "John A. Bryant",
+    "person_b": "Carey S. Causey",
+    "label": true,
+    "path": [
+      "John A. Bryant",
+      "BALL Corp",
+      "Carey S. Causey"
+    ],
+    "citations": [
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/BALL/DEF 14A/0001104659-26-029499/full-submission.txt",
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/BALL/10-K/0001104659-26-017410/full-submission.txt"
+    ]
+  },
+  {
+    "person_a": "Kenneth C. Dahlberg",
+    "person_b": "Shantella E. Cooper",
+    "label": false,
+    "path": null,
+    "citations": null
+  },
+  {
+    "person_a": "Angela Hwang",
+    "person_b": "Kate Johnson",
+    "label": true,
+    "path": [
+      "Angela Hwang",
+      "UNITED PARCEL SERVICE INC",
+      "Kate Johnson"
+    ],
+    "citations": [
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/UPS/DEF 14A/0001628280-26-019856/full-submission.txt",
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/UPS/DEF 14A/0001628280-26-019856/full-submission.txt"
+    ]
+  },
+  {
+    "person_a": "Mary Kasaris",
+    "person_b": "Wendy T. Stallings",
+    "label": false,
+    "path": null,
+    "citations": null
+  },
+  {
+    "person_a": "John A. Bryant",
+    "person_b": "Ronald J. Lewis",
+    "label": true,
+    "path": [
+      "John A. Bryant",
+      "BALL Corp",
+      "Ronald J. Lewis"
+    ],
+    "citations": [
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/BALL/DEF 14A/0001104659-26-029499/full-submission.txt",
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/BALL/DEF 14A/0001104659-26-029499/full-submission.txt"
+    ]
+  },
+  {
+    "person_a": "Steven H. Stein",
+    "person_b": "RICHARD V. McPHAIL",
+    "label": false,
+    "path": null,
+    "citations": null
+  },
+  {
+    "person_a": "John A. Bryant",
+    "person_b": "Aaron M. Erter",
+    "label": true,
+    "path": [
+      "John A. Bryant",
+      "BALL Corp",
+      "Aaron M. Erter"
+    ],
+    "citations": [
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/BALL/DEF 14A/0001104659-26-029499/full-submission.txt",
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/BALL/DEF 14A/0001104659-26-029499/full-submission.txt"
+    ]
+  },
+  {
+    "person_a": "Carey S. Causey",
+    "person_b": "Charles H. Robbins",
+    "label": false,
+    "path": null,
+    "citations": null
+  },
+  {
+    "person_a": "Angela Hwang",
+    "person_b": "Cassandra S. Lee",
+    "label": true,
+    "path": [
+      "Angela Hwang",
+      "UNITED PARCEL SERVICE INC",
+      "William Johnson",
+      "NISOURCE INC.",
+      "Cassandra S. Lee"
+    ],
+    "citations": [
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/UPS/DEF 14A/0001628280-26-019856/full-submission.txt",
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/UPS/DEF 14A/0001628280-26-019856/full-submission.txt",
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/NI/DEF 14A/0001140361-26-011851/full-submission.txt",
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/NI/DEF 14A/0001140361-26-011851/full-submission.txt"
+    ]
+  },
+  {
+    "person_a": "John A. Bryant",
+    "person_b": "John E. Panichella",
+    "label": true,
+    "path": [
+      "John A. Bryant",
+      "BALL Corp",
+      "John E. Panichella"
+    ],
+    "citations": [
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/BALL/DEF 14A/0001104659-26-029499/full-submission.txt",
+      "/Volumes/T7 Shield/c-o-investigator/data/filings/sec-edgar-filings/BALL/DEF 14A/0001104659-26-029499/full-submission.txt"
+    ]
+  }
+]

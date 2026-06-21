@@ -12,12 +12,14 @@ Template: conflict_of_interest — agent finds the connection path between two p
 # annotations as real objects.
 import asyncio
 import contextlib
+import json
 import logging
 import os
 import socket
 import sys
 import time
 from collections.abc import AsyncGenerator
+from pathlib import Path
 from typing import Any
 
 import httpx
@@ -155,7 +157,56 @@ async def fetch(url: str) -> str:
 # ---------------------------------------------------------------------------
 
 _SIXTYFOUR_BASE = "https://api.sixtyfour.ai"
-_sixtyfour_cache: dict[str, dict[str, Any]] = {}
+
+# Disk-persistent enrichment cache. In-memory alone is per-process (lost between
+# runs); persisting to JSON means the first run populates it and every run after is
+# instant for the same entities — no live sixtyfour calls. Ship this file with the
+# deployment (e.g. upload to Vercel) for cached, offline-able demos.
+# Override the location with SIXTYFOUR_CACHE_PATH.
+_SIXTYFOUR_CACHE_PATH = Path(os.getenv("SIXTYFOUR_CACHE_PATH", Path(__file__).parent / "sixtyfour_cache.json"))
+
+
+def _load_sixtyfour_cache() -> dict[str, dict[str, Any]]:
+    """
+    Load the persisted sixtyfour enrichment cache from disk, or {} if absent/unreadable.
+
+    Returns:
+        dict[str, dict] - Maps cache keys (e.g. "person:jane smith:acme") to enrichment results.
+
+    Examples:
+        cache = _load_sixtyfour_cache()
+        cache.get("company:apple:")
+    """
+    if _SIXTYFOUR_CACHE_PATH.exists():
+        try:
+            with open(_SIXTYFOUR_CACHE_PATH) as f:
+                data = json.load(f)
+            logger.info("Loaded sixtyfour cache: %d entries from %s", len(data), _SIXTYFOUR_CACHE_PATH)
+            return data
+        except Exception as e:
+            logger.warning("Could not read sixtyfour cache %s: %s", _SIXTYFOUR_CACHE_PATH, e)
+    return {}
+
+
+def _save_sixtyfour_cache() -> None:
+    """
+    Write the in-memory sixtyfour cache to disk (best-effort; logs and continues on failure).
+
+    Returns:
+        None
+
+    Examples:
+        _sixtyfour_cache["company:apple:"] = result
+        _save_sixtyfour_cache()
+    """
+    try:
+        with open(_SIXTYFOUR_CACHE_PATH, "w") as f:
+            json.dump(_sixtyfour_cache, f)
+    except Exception as e:
+        logger.warning("Could not persist sixtyfour cache to %s: %s", _SIXTYFOUR_CACHE_PATH, e)
+
+
+_sixtyfour_cache: dict[str, dict[str, Any]] = _load_sixtyfour_cache()
 
 
 async def _sixtyfour_post(path: str, payload: dict[str, Any], timeout: float = 900.0) -> dict[str, Any]:
@@ -202,6 +253,7 @@ async def enrich_person(name: str, company: str = "", linkedin: str = "") -> dic
     result = await _sixtyfour_post("/enrich-lead", {"lead_info": lead_info, "struct": struct, "tier": "micro"})
     if "error" not in result:
         _sixtyfour_cache[cache_key] = result
+        _save_sixtyfour_cache()
     return result
 
 
@@ -225,6 +277,7 @@ async def enrich_company(company: str, website: str = "") -> dict[str, Any]:
     )
     if "error" not in result:
         _sixtyfour_cache[cache_key] = result
+        _save_sixtyfour_cache()
     return result
 
 
@@ -515,5 +568,75 @@ async def conflict_of_interest(
     logger.info(
         "conflict_of_interest reward=%.3f | %s ↔ %s | label=%s",
         result.reward, person_a, person_b, label,
+    )
+    yield result
+
+
+@env.template()
+async def coi_general(
+    person_a: str,
+    person_b: str,
+    company_a: str = "",
+    company_b: str = "",
+) -> AsyncGenerator[Any, Any]:
+    """DEMO ONLY — generalized COI for people who may not appear in SEC filings.
+
+    Same task, same tools, and the same neutral tool list as conflict_of_interest
+    (so the trained policy behaves as it learned to) — only the framing is broadened
+    to allow entities the graph doesn't contain (startup founders, private-company
+    execs). Optional company_a/company_b seed the search and disambiguate common names.
+
+    NOT for the before/after eval — it shares no fixed ground truth. The submitted
+    path is graded only for whatever portion is SEC-verifiable (edges that exist in
+    graph.json earn per-edge credit; the rest is surfaced for inspection but can't be
+    scored). Use conflict_of_interest for measured results.
+    """
+    _submitted.clear()
+
+    hints = ""
+    if company_a:
+        hints += f"Known affiliation for {person_a}: {company_a}.\n"
+    if company_b:
+        hints += f"Known affiliation for {person_b}: {company_b}.\n"
+
+    yield (
+        f"Determine whether {person_a} and {person_b} are connected through shared board "
+        "memberships, executive roles, or other professional affiliations — a potential "
+        "conflict of interest.\n\n"
+        + hints
+        + (
+            "\nEither person may not appear in SEC filings (e.g. a startup founder or "
+            "private-company executive). A connection may run through private companies before "
+            "reaching a public company that appears in SEC records. To find indirect connections, "
+            "research the companies and people you discover along the way — a chain may require "
+            "several hops.\n\n"
+            "They may be directly connected through one shared company, connected through a chain "
+            "of intermediaries, or have no connection at all. All three outcomes are equally valid — "
+            "do not assume a connection exists.\n\n"
+            "Tools available:\n"
+            "  - sec_search(name) — search SEC EDGAR filings for a person or company name. "
+            "Returns filing URLs suitable as citations.\n"
+            "  - search(query) / fetch(url) — web search and page retrieval for additional context.\n"
+            "  - enrich_person(name) / enrich_company(name) — deep research on a person or company; "
+            "returns board seats, roles, and affiliations.\n\n"
+            "When you have reached a conclusion, call submit() — this is the only way to record your answer:\n"
+            "  submit(path=['Person A', 'Company X', 'Person B', ...], citations=['one_url_per_edge', ...]) "
+            "if a connection exists.\n"
+            "  submit(path=[], citations=[]) ONLY if you are confident no connection exists.\n\n"
+            "IMPORTANT — do not give up on a partial trail. If you have found part of a connection "
+            "but cannot complete the full chain, submit your best partial path rather than an empty one. "
+            "Every correct edge you submit earns credit; an empty path earns nothing when a connection "
+            "actually exists. Submit an empty path only when you genuinely believe the two people are "
+            "unconnected — never as a way to give up on a hard chain.\n\n"
+            "Writing your conclusion as text without calling submit() scores zero."
+        )
+    )
+
+    # Demo grading: no fixed ground truth, so score only the SEC-verifiable portion
+    # (label=True + empty ground_truth_path → per-edge credit for edges in graph.json).
+    result = grade_submission(_submitted, True, [], [], G)
+    logger.info(
+        "coi_general (demo) verifiable_reward=%.3f | %s ↔ %s | submitted=%s",
+        result.reward, person_a, person_b, _submitted.get("path"),
     )
     yield result

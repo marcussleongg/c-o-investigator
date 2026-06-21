@@ -6,7 +6,7 @@
 | ----- | ----- |
 | Base model | **Qwen3 8B (Tinker)** (base id `22b93b24-...`). Training fork: **`coi-clean`** (id `abd3da86-6f7c-4644-b95a-448c364790e7`), pristine from base. (Earlier `coi-investigator` fork drifted 3 micro optim steps from smoke/check/trial runs — abandoned for clean before/after.) |
 | Training set | `cases_train.json` — 140 cases (45 neg, 80 1-hop, 15 2-hop, 0 3-hop) — deadline mix: fast + learnable tiers; 3-hop dropped (slow + 0% base) |
-| Test set | `cases_test.json` — 184 held-out cases |
+| Test set | `cases_test.json` — 115 held-out cases (40 neg / 35 1-hop / 25 2-hop / 15 3-hop), rebuilt toward real-COI tiers; full natural-dist set archived in `cases_test_full.json`. Report **stratified by hop**. |
 | Calib set | `cases_calib.json` — 35 stratified cases |
 | Grader | deterministic per-edge (edge_correctness 0.5, endpoints 0.2, citation_coverage 0.3) |
 | Eval config | max_steps 50, group_size 5, max_concurrent 3 |

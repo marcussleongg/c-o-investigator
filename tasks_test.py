@@ -1,4 +1,9 @@
-"""Held-out test set — 184 cases never seen during training.
+"""Held-out test set — 115 cases never seen during training.
+
+Rebuilt toward the real-COI tiers: 40 neg / 35 1-hop / 25 2-hop / 15 3-hop
+(see build_test_set.py). Report results stratified by hop — the 1-/2-hop tiers
+are the COI signal; 3-hop is a small generalization probe. The original
+natural-distribution set is archived in cases_test_full.json.
 
 Run this against the base model BEFORE training to get the baseline,
 then against the trained model AFTER training to measure improvement.

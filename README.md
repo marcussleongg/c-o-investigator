@@ -1,3 +1,6 @@
+
+https://github.com/user-attachments/assets/bdfdebe8-7421-47d2-bfcb-cb420e319ce1
+
 # C-o-Investigator
 
 Much of this project was built on top of HUD's [deep research environment](https://github.com/hud-evals/hud-deepresearch), where the retrieve → inspect → answer loop was utilized in the scenario of identifying conflicts-of-interest between 2 corporate directors/executives.
@@ -92,6 +95,8 @@ A 20-case stratified subset of the held-out test set, used for a fast before/aft
 Weighted toward the trained tier (1-hop) and the generalization tier (2-hop), with a small 3-hop probe. Run identically against both models (before and after training); using a _fixed_ set for both removes the task-draw variance that makes per-step training rewards noisy, so it's the clean comparison measure. Report results stratified by hop, not as a single blended number.
 
 ## Results
+
+<img width="1350" height="750" alt="results_chart" src="https://github.com/user-attachments/assets/ae22b788-058b-4578-87f9-ddc77ea838fb" />
 
 Mean reward in [0, 1] on the small eval set (20 cases, `--group-size 1 --full`), **stratified by hop**:
 
